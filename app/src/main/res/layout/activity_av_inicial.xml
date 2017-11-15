@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    android:id="@+id/avaliacaoini">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="419dp"
+            android:layout_height="640dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="-27dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Instruções"
+            android:textSize="40dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/textView2" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Liso"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/textView3"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:layout_width="480dp"
+            android:layout_height="130dp"
+            android:id="@+id/linearLayout"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="11dp"
+                app:srcCompat="@drawable/uma"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="18dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/imageView4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="11dp"
+                app:srcCompat="@drawable/umb"
+                android:layout_marginLeft="18dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/umc"
+                android:layout_alignTop="@+id/imageView3"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="11dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="18dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Ondulado"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:layout_width="480dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout2"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/doisa"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="11dp"
+                android:id="@+id/imageView5"
+                android:layout_marginLeft="18dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/doisb"
+                android:layout_alignTop="@+id/imageView5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="11dp"
+                android:id="@+id/imageView6"
+                android:layout_marginLeft="18dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/doisc"
+                android:layout_alignTop="@+id/imageView6"
+                android:layout_toEndOf="@+id/imageView6"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="18dp"
+                android:layout_toRightOf="@+id/imageView6" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Cacheado"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView5"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:layout_width="480dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout3"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/aaaa"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/tresa"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="27dp" />
+
+            <ImageView
+                android:id="@+id/aaaaaaa"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/tresb"
+                android:layout_marginLeft="27dp" />
+
+            <ImageView
+                android:id="@+id/aaaaaaaaa"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/tresc"
+                android:layout_marginLeft="18dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Crespo"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:layout_width="480dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/linearLayout4">
+
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="11dp"
+                app:srcCompat="@drawable/quatroa"
+                android:layout_marginLeft="18dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="11dp"
+                app:srcCompat="@drawable/quatrob"
+                android:layout_marginLeft="18dp" />
+
+            <ImageView
+                android:id="@+id/image02"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="11dp"
+                app:srcCompat="@drawable/quatroc"
+                android:layout_marginLeft="18dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Proximo" />
+
+
+    </RelativeLayout>
+</ScrollView>

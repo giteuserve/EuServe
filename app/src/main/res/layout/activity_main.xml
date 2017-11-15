@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FF6347"
-    tools:context="com.example.allan.euserve.MainActivity">
+    tools:context="com.example.allan.euserve.Activity.MainActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -23,12 +23,9 @@
         android:layout_width="196dp"
         android:layout_height="207dp"
         app:srcCompat="@drawable/desenho"
-        android:layout_marginRight="97dp"
-        android:layout_marginEnd="97dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="106dp" />
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/button5"
@@ -39,6 +36,7 @@
         android:background="@drawable/buttonshape"
         android:elevation="0dp"
         android:text="Criar minha conta no EuServe"
+        android:textAllCaps="false"
         android:onClick="onClick" />
 
     <Button
@@ -51,6 +49,7 @@
         android:layout_marginTop="8dp"
         android:background="@android:color/transparent"
         android:text="Já sou cadastrado"
+        android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:onClick="onClick"
         />
@@ -58,13 +57,13 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:gravity="center"
         android:text="EuServe"
         android:textColor="@android:color/white"
         android:fontFamily="serif-monospace"
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

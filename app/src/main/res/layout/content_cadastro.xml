@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.allan.euserve.Activity.Cadastro"
+    tools:showIn="@layout/activity_cadastro"
+    android:weightSum="1">
+
+
+
+
+
+
+
+
+     <ImageView
+         android:id="@+id/imageView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         app:srcCompat="@drawable/icone"
+         android:layout_below="@+id/textView"
+         android:layout_centerHorizontal="true" />
+
+     <EditText
+         android:id="@+id/Cadnome"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Nome"
+         android:inputType="textCapCharacters"
+         android:layout_marginTop="27dp"
+         android:layout_below="@+id/imageView2"
+        />
+
+     <EditText
+         android:id="@+id/Cadnascimento"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Data de nascimento"
+         android:inputType="datetime"
+         android:layout_marginTop="22dp"
+         android:layout_below="@+id/Cadnome"
+         />
+
+     <EditText
+         android:id="@+id/Cademail"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:inputType="textEmailAddress"
+         android:hint="E-mail"
+         android:layout_below="@+id/Cadnascimento"
+         android:layout_marginTop="25dp" />
+
+     <EditText
+         android:id="@+id/Cadsenha"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Senha"
+         android:inputType="textPassword"
+         android:layout_below="@+id/Cademail"
+         android:layout_marginTop="24dp" />
+
+     <EditText
+         android:id="@+id/Cadsenha1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:inputType="textPassword"
+         android:layout_below="@+id/Cadsenha"
+         android:layout_marginTop="13dp"
+         android:hint="Repitir senha"/>
+    <RadioButton
+        android:id="@+id/rbFemi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feminino"
+        android:checked="false"
+
+        android:layout_below="@+id/Cadsenha1"
+        android:layout_toRightOf="@+id/rbMasc"
+        android:layout_toEndOf="@+id/rbMasc"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <RadioButton
+        android:id="@+id/rbMasc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masculino"
+        android:checked="false"
+
+        android:layout_below="@+id/Cadsenha1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:text="Enviar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_marginRight="52dp"
+        android:layout_marginEnd="52dp" />
+
+    <Button
+        android:id="@+id/cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp" />
+
+
+</RelativeLayout>
+
+
+
