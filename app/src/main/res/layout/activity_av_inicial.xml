@@ -3,7 +3,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light"
+    android:background="#FF6347"
     android:id="@+id/avaliacaoini">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"

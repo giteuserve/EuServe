@@ -12,4 +12,5 @@
     <string name="reset" />
     <string name="reset_bt_label" />
     <string name="prompt_email" />
+    <string name="title_activity_av_final">AvFinal</string>
 </resources>

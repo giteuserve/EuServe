@@ -31,10 +31,16 @@
             android:name=".Activity.Login"
             android:label="Login"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Activity.AvInicial" />
+        <activity
+            android:name=".Activity.AvInicial"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activity.TrocarSenha"
             android:label="Trocar Senha"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.AvFinal"
+            android:label=""
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
